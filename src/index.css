@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background: #d9d9d9; 
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:hover {background-color: #484848;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+  background-repeat: repeat-y;
+}
+.cursor{
+  cursor: pointer;
+}
+
+.avtiveborder{
+
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar {
+  background-color: rgb(60, 60, 60);
+  color: #fff !important;
+	box-shadow: 0 5px 5px 3px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+}
+.logocss {
+  height: 51px;
+  margin-right: 5px;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  text-shadow: 1px 1px 5px #fff;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+}
+
+#header {
+  width: 100%;
+  margin-top: 30px;
+}
+
+#header h1 {
+  margin: 10px 0 10px 20px;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-left: 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  background: transparent;
+  text-decoration: none;
+  align-self: center;
+}
+
+#header .btn-get-started:hover{
+  background: #3498db;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#Achievements {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform:  translateY(-10px);
+  }
+}
+
+#swippercss {
+  margin: 30px;
+}
+
+.swiper {
+  padding: 20px 0 20px 0 !important;
+}
+
+.swiper-slide {
+  background-position: center !important;
+  background-size: cover !important;
+  width: 400px !important;
+  height: 500px !important;
+}
+
+.card {
+	position: relative;
+	background-color: #bbbbc4;
+	color: #404040;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	box-shadow: 0 0 10px 3px rgba(0,0,0,0.4);
+}
+
+.cardheader {
+	position: relative;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+  color: #fff;
+}
+
+.cardcontent {
+	padding: 30px;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.cardcontent a {
+	display: flex;
+	margin: 10px 0 0;
+	padding: 8px 15px;
+	text-decoration: none;
+	border: 3px solid #000;
+	border-radius: 21.5px;
+	margin-bottom: 5px;
+	color: #000;
+	font-weight: 600;
+}
+
+.cardcontent a:hover {
+	border-color: #979797;
+  color: #979797;
+	box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+}
+
+.membercard {
+	position: relative;
+	background-color: #fff;
+	color: #000;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	box-shadow: 0 0 10px 3px rgba(0,0,0,0.4);
+}
+
+.memberid img {
+  width: 150px;
+  height: auto;
+}
+
+.memberdetails{
+  padding: 5px;
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+	box-shadow: 0 -4px 10px 5px rgba(0,0,0,0.8);
+}
+
+.smhi {
+  width: 50px;
+}
